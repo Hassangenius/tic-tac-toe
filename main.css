@@ -1,0 +1,55 @@
+
+
+body{
+    text-align: center;
+    background: url("https://f.hubspotusercontent10.net/hubfs/6448316/cybersecurity-computer-science.jpg");
+    font-size: 80px; 
+     /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+}
+.title {
+    font-size: 60px;
+    align-items: center;
+    color: brown;
+    text-align: center;
+    
+}
+.gameContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    margin: auto;
+    cursor: pointer;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    margin: 2px;
+    float: right;
+    border-radius: 30px;
+}
+#Reset{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgb(84, 21, 201);
+    border: solid red;
+    border-style:inset;
+}
+.message{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+#play{
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    font-size: 40px;
+    color: blueviolet;
+    border-radius: 30px;
+
+}
